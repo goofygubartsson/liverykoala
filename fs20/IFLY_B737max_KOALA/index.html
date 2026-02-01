@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Livery Download</title>
+</head>
+
+<body bgcolor="#ffffff" text="#000000">
+
+  <center>
+    <p>
+      By clicking Accept, you agree to the livery terms and the
+      <a href="https://koalaairvirtual.com/terms" target="_blank">
+        Koala Air Virtual Terms & Conditions
+      </a>.
+      <input type="button" value="Accept"
+        onclick="downloadFile()">
+      <input type="button" value="Decline"
+        onclick="alert('You must accept the terms to download this livery.')">
+    </p>
+  </center>
+
+  <script type="text/javascript">
+    function downloadFile() {
+      window.location.href =
+        "https://drive.google.com/file/d/1J0tSDHKnDTe6KnLMEluDxyQaKO0zlN7d/view?usp=sharing";
+    }
+  </script>
+
+</body>
+</html>
